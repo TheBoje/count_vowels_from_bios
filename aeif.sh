@@ -2,7 +2,9 @@
 
 if [[ -z "$1"  || "$1" == "-h" || "$1" == "--help" ]]
 then
-	echo "usage: `basename $0` '<your sentence>'"
+	echo "usage: aeif.sh '<your sentence>'"
+	echo "       aeif.sh --help / -h  : this help menu"
+	echo "       make clean           : clean up your environnement"
 	exit 1
 fi
 
