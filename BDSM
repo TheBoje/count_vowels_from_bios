@@ -1,16 +1,17 @@
 #!/bin/bash
+set -e
 
 if [[ -z "$1"  || "$1" == "-h" || "$1" == "--help" ]]
 then
-	echo "usage: aeif.sh '<your sentence>'"
-	echo "       aeif.sh --help / -h  : this help menu"
+	echo "usage: BDSM '<your sentence>'"
+	echo "       BDSM --help / -h  : this help menu"
 	echo "       make clean           : clean up your environnement"
 	exit 1
 fi
 
-if [ ${#1} -lt 70 ]
+if [ ${#1} -lt 80 ]
 then
-	sed "s/HELLO/$REPLY/g" main_ref.c > main.c
+	sed "s/HELLO/$1/g" main_ref.c > main.c
 	echo -e "Compiling..."
 	make build
 	echo -e "\033[32mCompilation done!\033[0m"
