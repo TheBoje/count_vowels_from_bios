@@ -50,6 +50,11 @@ sudo dd if=main.img of=/dev/sdX
 
 The program is now loaded onto the USB key. Reboot your computer, enter the BIOS, and boot from said USB key (you may require disabling `safe boot option` or equivalent, see [this tutorial](https://www.malekal.com/comment-demarrer-ordinateur-cle-usb/) for help). Your sentence followed by the count of vowels should be printed.
 
+# Example
+
+[![Watch the video](https://img.youtube.com/vi/OJno2fkPDCU/maxresdefault.jpg)](https://www.youtube.com/watch?v=OJno2fkPDCU)
+
+
 # License
 
 My submission for the third edition of the Bad code from "La click" is distributed under the DWTFYW License, see [LICENSE](LICENSE) for more details.
