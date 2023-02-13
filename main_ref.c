@@ -1,4 +1,4 @@
-void main() {
+int main() {
   char s[] = "HELLO";
   int i = 0, c = 0;
   for (i = 0; i < sizeof(s); i++) {
